@@ -1,22 +1,27 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Topik: Sejarah kriptografi dan Prinsip CIA
+Nama: Sofyan Muzaki
+NIM: 230202820  
+Kelas: 5IKRA
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+1. Menjelaskan sejarah dan evolusi kriptografi dari masa klasik hingga modern.
+2. Menyebutkan prinsip Confidentiality, Integrity, Availability (CIA) dengan benar.
+3. Menyimpulkan peran kriptografi dalam sistem keamanan informasi modern.
+4. Menyiapkan repositori GitHub sebagai media kerja praktikum.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+Cipher klasik adalah salah satu bentuk awal dari teknik kriptografi yang digunakan untuk menyembunyikan pesan agar tidak mudah dibaca oleh orang lain. Cara kerjanya yaitu dengan mengganti atau menggeser huruf-huruf dalam teks asli (plaintext) menjadi teks sandi (ciphertext). Beberapa contoh cipher klasik yang cukup dikenal antara lain Caesar Cipher, Vigenère Cipher, dan Transposition Cipher. Walaupun sederhana, konsep cipher klasik ini menjadi dasar dari berbagai metode enkripsi yang digunakan dalam sistem keamanan modern.
 
----
+Dalam proses enkripsi dan dekripsi pada cipher klasik, digunakan konsep aritmetika modular, yaitu operasi matematika yang menggunakan sisa hasil pembagian. Misalnya pada Caesar Cipher, setiap huruf digeser sejauh k posisi menggunakan rumus C = (P + k) mod 26, di mana P adalah huruf asli, k adalah kunci pergeseran, dan C adalah hasil enkripsi. Operasi ini memastikan pergeseran huruf tetap berada dalam rentang alfabet.
+
+Meskipun cipher klasik sudah jarang digunakan karena mudah dipecahkan, konsep dasarnya tetap penting untuk dipahami. Prinsip seperti pergeseran huruf dan penggunaan modulus masih digunakan pada algoritma kriptografi yang lebih kompleks, seperti RSA dan Diffie-Hellman, yang berperan besar dalam menjaga keamanan data di era digital sekarang.
+
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
