@@ -44,7 +44,7 @@ Contoh format:
 ---
 
 ## 5. Source Code
-
+```python
 def enkripsi_caesar(text, shift):
     hasil = ""
     for char in text:
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
     terdekripsi = dekripsi_caesar(terenkripsi, kunci)
     print(f"Hasil Dekripsi : {terdekripsi}")
-
+```
 
 ## 6. Hasil dan Pembahasan
 
