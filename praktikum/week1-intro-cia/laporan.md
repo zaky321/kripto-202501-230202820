@@ -20,8 +20,8 @@ Cipher klasik adalah salah satu bentuk awal dari teknik kriptografi yang digunak
 
 Dalam proses enkripsi dan dekripsi pada cipher klasik, digunakan konsep aritmetika modular, yaitu operasi matematika yang menggunakan sisa hasil pembagian. Misalnya pada Caesar Cipher, setiap huruf digeser sejauh k posisi menggunakan rumus C = (P + k) mod 26, di mana P adalah huruf asli, k adalah kunci pergeseran, dan C adalah hasil enkripsi. Operasi ini memastikan pergeseran huruf tetap berada dalam rentang alfabet.
 
-**Meskipun cipher klasik sudah jarang digunakan karena mudah dipecahkan, konsep dasarnya tetap penting untuk dipahami. Prinsip seperti pergeseran huruf dan penggunaan modulus masih digunakan pada algoritma kriptografi yang lebih kompleks, seperti RSA dan Diffie-Hellman, yang berperan besar dalam menjaga keamanan data di era digital sekarang.
-**---
+Meskipun cipher klasik sudah jarang digunakan karena mudah dipecahkan, konsep dasarnya tetap penting untuk dipahami. Prinsip seperti pergeseran huruf dan penggunaan modulus masih digunakan pada algoritma kriptografi yang lebih kompleks, seperti RSA dan Diffie-Hellman, yang berperan besar dalam menjaga keamanan data di era digital sekarang.
+
 
 ## 3. Alat dan Bahan
 (- Python 3.x  
