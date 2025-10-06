@@ -1,8 +1,12 @@
 # Laporan Praktikum Kriptografi
 Minggu ke-: 1
+
 Topik: Sejarah kriptografi dan Prinsip CIA
+
 Nama: Sofyan Muzaki
-NIM: 230202820  
+
+NIM: 230202820
+
 Kelas: 5IKRA
 
 ---
@@ -65,7 +69,6 @@ if __name__ == "__main__":
     terdekripsi = dekripsi_caesar(terenkripsi, kunci)
     print(f"Hasil Dekripsi : {terdekripsi}")
 
----
 
 ## 6. Hasil dan Pembahasan
 
@@ -91,8 +94,7 @@ Berbeda dengan itu, kriptografi modern menggunakan pendekatan matematis dan teor
 ## 8. Kesimpulan
 Kesimpulan Percobaan Teknik Caesar Cipher – Kriptografi Klasik: Dari percobaan menggunakan teknik Caesar Cipher, dapat disimpulkan bahwa metode ini merupakan bentuk kriptografi klasik yang sangat sederhana. Proses enkripsi dilakukan dengan menggeser huruf dalam teks asli sejumlah nilai tertentu, sedangkan dekripsi dilakukan dengan menggeser huruf ke arah sebaliknya.
 
-**Meskipun mudah dipahami dan diterapkan, Caesar Cipher memiliki tingkat keamanan yang rendah, karena pola pergeserannya mudah ditebak dan dapat dipecahkan dengan percobaan sederhana (brute force). Namun demikian, percobaan ini memberikan pemahaman dasar tentang prinsip kerja enkripsi dan dekripsi, yang menjadi fondasi bagi pengembangan kriptografi modern yang lebih kompleks dan aman.
-**---
+Meskipun mudah dipahami dan diterapkan, Caesar Cipher memiliki tingkat keamanan yang rendah, karena pola pergeserannya mudah ditebak dan dapat dipecahkan dengan percobaan sederhana (brute force). Namun demikian, percobaan ini memberikan pemahaman dasar tentang prinsip kerja enkripsi dan dekripsi, yang menjadi fondasi bagi pengembangan kriptografi modern yang lebih kompleks dan aman.
 
 ## 9. Daftar Pustaka   
 - Munir, R. (2006). Pengantar Kriptografi. ITB, Bandung. 
