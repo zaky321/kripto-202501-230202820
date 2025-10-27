@@ -136,7 +136,7 @@ Selain itu, invers modular terbukti sangat penting karena berfungsi untuk mengem
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
+commit 23c9150a3ab3aecf36aa72101a9cda941f298292
 Author: zaky321 <sofyan.muzaqi@gmail.com>
 Date:   Mon Oct 27 21:36:51 2025 +0700
 
