@@ -137,8 +137,8 @@ Selain itu, invers modular terbukti sangat penting karena berfungsi untuk mengem
 Contoh:
 ```
 commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author: zaky321 <sofyan.muzaqi@gmail.com>
+Date:   Mon Oct 27 21:36:51 2025 +0700
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week3-modmath-gdc: implementasi modular arithmetic & GCD dan laporan )
 ```
