@@ -1,0 +1,57 @@
+[33mcommit 8529da3d5af458f3b0b1241cbf019d5ce504563c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Mon Oct 6 18:52:25 2025 +0700
+
+    Update laporan.md
+
+[33mcommit cfab96c2d48eb35b8922745f0c30eb9bee566f78[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Sat Oct 4 09:12:18 2025 +0700
+
+    Update README.md for clarity and consistency in practical instructions and course structure
+
+[33mcommit 2b809f12f81165ff01d395cb39b6918543dddee7[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Fri Oct 3 12:44:29 2025 +0700
+
+    Update practical guides for cryptography topics:
+    - Revise Cipher Modern section to include DES, AES, and RSA implementations.
+    - Enhance Diffie-Hellman section with key exchange simulation and MITM analysis.
+    - Remove outdated Signature PKI section and introduce Digital Signature guide with RSA/DSA.
+    - Delete Secret Sharing and TLS application sections; add new PKI and Secret Sharing guides.
+    - Introduce TinyChain PoW section for blockchain concepts and security analysis.
+    - Add comprehensive analysis of cryptographic attacks and their mitigations.
+    - Finalize TinyCoin ERC20 project guide for smart contract implementation and testing.
+
+[33mcommit 0052c7b08edd88e553c5c641e92b34fe8e1500b6[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Fri Oct 3 06:47:00 2025 +0700
+
+    Remove notes section to streamline content for Week 1 in Cryptography course documentation.
+
+[33mcommit 719a1f9a49233ed49c1d172ef5f6b114759da2b0[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Fri Oct 3 06:42:38 2025 +0700
+
+    Update documentation for Cryptography course: add introductory guides, practical templates, and detailed weekly assignments.
+
+[33mcommit d16700de9aedf7b722a3da9543371be607e04e37[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Fri Oct 3 05:40:50 2025 +0700
+
+    Add practical reports and code examples for weeks 2 to 16 in Cryptography course
+    
+    - Created laporan.md files for each week from week 2 to week 16, detailing objectives, theory, tools, steps, source code, results, discussion, questions, conclusions, references, and commit logs.
+    - Added code-example.py files for each week from week 2 to week 16 to provide practical coding examples related to the topics covered.
+
+[33mcommit 3ff5eb3008439907c18c76af74097a77db394a4c[m
+Author: hb_alim <m.helmibahara@gmail.com>
+Date:   Tue Sep 30 14:45:39 2025 +0700
+
+    Add initial documentation and practical guides for Cryptography course
+
+[33mcommit 7cf3dfc72ee26414b35e48727ae4538f8bd69729[m
+Author: mhbahara <164154616+mhbahara@users.noreply.github.com>
+Date:   Mon Sep 29 23:49:24 2025 +0700
+
+    Initial commit
