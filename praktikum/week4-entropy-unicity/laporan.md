@@ -129,8 +129,7 @@ Berdasarkan percobaan, dapat disimpulkan bahwa nilai entropy berperan penting da
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
+
 ```
 commit abc12345
 Author: Nama Mahasiswa <email>
