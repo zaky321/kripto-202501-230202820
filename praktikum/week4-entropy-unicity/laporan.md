@@ -1,20 +1,30 @@
 # Laporan Praktikum Kriptografi
-Minggu ke-: X  
-Topik: [judul praktikum]  
-Nama: [Nama Mahasiswa]  
-NIM: [NIM Mahasiswa]  
-Kelas: [Kelas]  
+Minggu ke-: 4  
+Topik: [Entropy & Unicity Distance (Evaluasi Kekuatan Kunci dan Brute Force)]  
+Nama: [Sofyan Muzaki]  
+NIM: [230202820]  
+Kelas: [5IKRA]  
 
 ---
 
 ## 1. Tujuan
-(Tuliskan tujuan pembelajaran praktikum sesuai modul.)
+Setelah mengikuti praktikum ini, mahasiswa diharapkan mampu:
+
+1. Menyelesaikan perhitungan sederhana terkait entropi kunci.
+2. Menggunakan teorema Euler pada contoh perhitungan modular & invers.
+3. Menghitung unicity distance untuk ciphertext tertentu.
+4. Menganalisis kekuatan kunci berdasarkan entropi dan unicity distance.
+5. Mengevaluasi potensi serangan brute force pada kriptosistem sederhana.
 
 ---
 
 ## 2. Dasar Teori
-(Ringkas teori relevan (cukup 2–3 paragraf).  
-Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
+    Entropy dalam konteks kriptografi menggambarkan tingkat ketidakpastian atau keacakan dalam suatu sistem kunci. Entropy diukur dalam satuan bit dan menunjukkan seberapa sulit kunci tersebut ditebak oleh pihak yang tidak berwenang. Semakin tinggi nilai entropinya, semakin besar jumlah kemungkinan kombinasi kunci yang harus diuji dalam serangan brute force. Entropy dihitung dengan rumus 
+𝐻=−∑𝑝𝑖log⁡2𝑝𝑖​, di mana 𝑝𝑖 adalah probabilitas kemunculan setiap kemungkinan kunci. Dalam praktiknya, kunci dengan entropi rendah-misalnya karena pola yang mudah ditebak-akan sangat rentan terhadap serangan karena mengurangi ruang pencarian efektif bagi penyerang.
+
+    Unicity Distance adalah ukuran teoretis yang menggambarkan jumlah minimum ciphertext yang dibutuhkan untuk secara unik menentukan kunci enkripsi secara matematis. Konsep ini dikembangkan oleh Claude Shannon untuk menilai kekuatan sistem kriptografi terhadap analisis statistik. Semakin besar unicity distance suatu sistem, semakin sulit bagi penyerang untuk menemukan kunci tunggal yang valid, karena data ciphertext yang sedikit belum cukup memberikan informasi yang cukup untuk menebak kunci secara pasti. Dengan demikian, unicity distance menjadi indikator seberapa “aman” suatu algoritma dari serangan berbasis analisis frekuensi dan statistik.
+
+    Hubungan antara entropy dan unicity distance sangat erat dalam mengevaluasi kekuatan kunci terhadap serangan brute force. Entropy menunjukkan keragaman dan keacakan kunci, sedangkan unicity distance menilai kuantitas data yang diperlukan untuk menembus enkripsi. Dalam sistem dengan entropi tinggi, unicity distance biasanya juga tinggi, sehingga serangan brute force menjadi tidak efisien secara komputasional. Oleh karena itu, dalam perancangan sistem keamanan modern, kedua konsep ini digunakan bersama untuk mengukur sejauh mana algoritma kriptografi mampu bertahan terhadap eksploitasi berbasis pencarian menyeluruh (brute force attack) maupun analisis probabilistik.
 
 ---
 
@@ -29,22 +39,62 @@ Contoh: definisi cipher klasik, konsep modular aritmetika, dll.  )
 ## 4. Langkah Percobaan
 (Tuliskan langkah yang dilakukan sesuai instruksi.  
 Contoh format:
-1. Membuat file `caesar_cipher.py` di folder `praktikum/week2-cryptosystem/src/`.
+1. Membuat file `entropy_unicity.py` di folder `praktikum/week4-entropy-unicity/src/`.
 2. Menyalin kode program dari panduan praktikum.
-3. Menjalankan program dengan perintah `python caesar_cipher.py`.)
+3. Menjalankan program dengan perintah `python entropy_unicity.py`.)
 
 ---
 
 ## 5. Source Code
-(Salin kode program utama yang dibuat atau dimodifikasi.  
-Gunakan blok kode:
+### Langkah 1 — Perhitungan Entropi
+ 
+\[
+H(K) = \log_2 |K|
+\]  
+dengan \(|K|\) adalah ukuran ruang kunci.  
+
+Contoh implementasi Python:  
+```python
+import math
+
+def entropy(keyspace_size):
+    return math.log2(keyspace_size)
+
+print("Entropy ruang kunci 26 =", entropy(26), "bit")
+print("Entropy ruang kunci 2^128 =", entropy(2**128), "bit")
+```
+
+### Langkah 2 — Menghitung Unicity Distance
+
+\[
+U = \frac{H(K)}{R \cdot \log_2 |A|}
+\]  
+dengan:  
+- \(H(K)\): entropi kunci,  
+- \(R\): redundansi bahasa (misal bahasa Inggris \(R \approx 0.75\)),  
+- \(|A|\): ukuran alfabet (26 untuk A–Z).  
+
+Contoh implementasi Python:  
+```python
+def unicity_distance(HK, R=0.75, A=26):
+    return HK / (R * math.log2(A))
+
+HK = entropy(26)
+print("Unicity Distance untuk Caesar Cipher =", unicity_distance(HK))
+```
+
+### Langkah 3 — Analisis Brute Force
+Simulasikan waktu brute force dengan asumsi kecepatan komputer tertentu.
 
 ```python
-# contoh potongan kode
-def encrypt(text, key):
-    return ...
+def brute_force_time(keyspace_size, attempts_per_second=1e6):
+    seconds = keyspace_size / attempts_per_second
+    days = seconds / (3600*24)
+    return days
+
+print("Waktu brute force Caesar Cipher (26 kunci) =", brute_force_time(26), "hari")
+print("Waktu brute force AES-128 =", brute_force_time(2**128), "hari")
 ```
-)
 
 ---
 
@@ -57,8 +107,6 @@ def encrypt(text, key):
 Hasil eksekusi program Caesar Cipher:
 
 ![Hasil Eksekusi](screenshots/output.png)
-![Hasil Input](screenshots/input.png)
-![Hasil Output](screenshots/output.png)
 )
 
 ---
