@@ -126,8 +126,7 @@ Percobaan menunjukkan bahwa DES tidak lagi mampu memberikan keamanan memadai kar
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
-Contoh:  
+
 - Meko, D. A. (2018). *Perbandingan Algoritma DES, AES, IDEA Dan Blowfish dalam Enkripsi dan Dekripsi Data.* Jurnal Teknologi Terpadu, 4(1)..  
 - Dalia, D., Anwar, B., & Setiawan, D. (2021). *Implementasi Algoritma Rsa Untuk Keamanan Data Mutasi Pada PT. SSSS Kuala Tanjung.* Jurnal Cyber Tech, 4(6).
 - Simbolon, I. A. R., Gunawan, I., Kirana, I. O., Dewi, R., & Solikhun, S. (2020). *Penerapan Algoritma AES 128-Bit dalam Pengamanan Data Kependudukan pada Dinas Dukcapil Kota Pematangsiantar.* Journal of Computer System and Informatics (JoSYC), 1(2), 54-60.
@@ -135,12 +134,11 @@ Contoh:
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
+
 ```
-commit abc12345
+commit 24066cd9f03055475a11e3a56f7c45151b01f353
 Author: Sofyan Muzaki <sofyan.muzaqi@gmail.com>
 Date:   2025-09-20
 
-    week2-cryptosystem: implementasi Caesar Cipher dan laporan )
+    week6-cipher-modern 
 ```
