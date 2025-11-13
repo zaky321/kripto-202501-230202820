@@ -182,12 +182,10 @@ Dari percobaan terhadap Cipher Klasik (Caesar, Vigenère, dan Transposisi), dapa
 ---
 
 ## 10. Commit Log
-(Tuliskan bukti commit Git yang relevan.  
-Contoh:
+
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+Author: zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Fri Oct 31 22:38:52 2025 +0700
 
    week5-cipher-klasik
 ```

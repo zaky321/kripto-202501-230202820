@@ -28,4 +28,8 @@ enc = transpose_encrypt(msg, key=5)
 dec = transpose_decrypt(enc, key=5)
 print("Plaintext :", msg)
 print("Ciphertext:", enc)
+<<<<<<< HEAD
 print("Decrypted :", dec)
+=======
+print("Decrypted :", dec)
+>>>>>>> ecf7e35e745d84d6aa817474a05666cc764530ff

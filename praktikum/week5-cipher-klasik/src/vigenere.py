@@ -33,4 +33,8 @@ enc = vigenere_encrypt(msg, key)
 dec = vigenere_decrypt(enc, key)
 print("Plaintext :", msg)
 print("Ciphertext:", enc)
+<<<<<<< HEAD
 print("Decrypted :", dec)
+=======
+print("Decrypted :", dec)
+>>>>>>> ecf7e35e745d84d6aa817474a05666cc764530ff
