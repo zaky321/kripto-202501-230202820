@@ -110,9 +110,9 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit cfcc666b00f79f3d1f88145954f5d50b2a7d3985
 Author: Sofyan Muzaki  <sofyan.muzaqi@gmail.com>
-Date:   2025-09-20
+Date:    Sun Nov 23 22:59:02 2025 +0700
 
     week7-diffie-hellman 
 ```
