@@ -131,9 +131,9 @@ Secara keseluruhan, tanda tangan digital merupakan mekanisme penting dalam keama
 
 Contoh:
 ```
-commit abc12345
-Author: Sofyan Muzaki <sofyan.muzaqi@gmail.com>
-Date:   2025-09-20
+commit 0819e28e0a023ffdaaf24f7a03bbcd451d714987 (HEAD -> main, origin/main, origin/HEAD)
+Author: zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Sat Dec 13 22:19:23 2025 +0700
 
     week9-digital-signature 
 ```
