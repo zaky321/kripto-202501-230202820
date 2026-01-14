@@ -103,7 +103,7 @@ Hasil eksekusi program PKI:
 ![Hasil Eksekusi](screenshots/output.png)
 ![Hasil Input](screenshots/input.png)
 ![Hasil Output](screenshots/output.png)
-)
+
 
 ---
 
@@ -122,7 +122,7 @@ Dari percobaan yang dilakukan, sertifikat digital berhasil dibuat dan ditandatan
 ---
 
 ## 9. Daftar Pustaka
-(Cantumkan referensi yang digunakan.  
+Cantumkan referensi yang digunakan.  
 Contoh:  
 - Arifin, S. Implementasi Public Key Infrastructure untuk Keamanan Sistem Pengiriman Data Pilkada Via Mobile.  
 - Auliafitri, D., RizkiSuro, E., Malik, M. R. M., & Setiawan, A. (2024). Optimalisasi Pengujian Penetrasi: Penerapan Serangan MITM (Man in the Middle Attack) menggunakan Websploit. Journal of Internet and Software Engineering, 1(3), 12-12.
