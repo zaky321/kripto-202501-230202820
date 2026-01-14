@@ -132,9 +132,9 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
-Author: Nama Mahasiswa <email>
-Date:   2025-09-20
+commit be5ef8b2429474299ff9e207a8809e98b60e7654
+Author: zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Sat Dec 27 22:28:51 2025 +0700
 
     week10-pki 
 ```
