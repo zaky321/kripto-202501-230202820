@@ -118,9 +118,9 @@ Dari percobaan, enkripsi (misalnya HTTPS/TLS) bikin data login dan transaksi jad
 (Tuliskan bukti commit Git yang relevan.  
 Contoh:
 ```
-commit abc12345
+commit 8fd940902e759818fd3d7b5935b458dd667bcc14
 Author: Sofyan Muzaki <sofyan.muzaqi@gmail.com>
-Date:   2025-09-20
+Date:    Wed Jan 14 22:38:55 2026 +0700
 
    week12-aplikasi-tls.
  )
