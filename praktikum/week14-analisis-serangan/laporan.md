@@ -115,9 +115,9 @@ Berdasarkan percobaan brute force dan dictionary attack terhadap hash MD5, terbu
 ## 10. Commit Log
 
 ```
-commit abc12345
-Author: Sofyan Muzaki  <sofyan.muzaqi@gmail.com>
-Date:   2025-09-20
+commit 5575dd0dc4540adfbee5a67f5980d7b4137d14cb
+Author:  zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Tue Jan 20 00:04:02 2026 +0700
 
    week14-analisis-serangan
 ```
