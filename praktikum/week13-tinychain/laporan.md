@@ -144,9 +144,9 @@ Dari percobaan TinyChain, kelihatan kalau hash itu jadi “penjaga” rantai: be
 ## 10. Commit Log
 
 ```
-commit abc12345
+commit f1371eecaff102be954b7d1af5de27365a4d9791
 Author: Sofayn muzaki <Sofyan.muzaqi@gmail.com>
-Date:   2025-09-20
+Date:   Wed Jan 14 23:07:59 2026 +0700
 
    week13-tinychain
 ```
