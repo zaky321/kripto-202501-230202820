@@ -71,9 +71,9 @@ Contoh:
 ## 10. Commit Log
 
 ```
-commit abc12345
-Author: Sofyan Muzaki
-Date:   2026-01-28
+commit 90779d34d9214f8ba53df516bc4ec630568b785b
+Author: zaky321 <141202616+zaky321@users.noreply.github.com>
+Date:   Wed Jan 28 23:26:20 2026 +0700
 
     week15-tinycoin-erc20: implementasi TinyCoin.sol dan laporan )
 ```
